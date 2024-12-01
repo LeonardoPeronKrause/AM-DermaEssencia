@@ -1,0 +1,65 @@
+/* Garante que o HTML e o body ocupem toda a altura */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Jacques Francois', serif;
+}
+
+ /* Centraliza os elementos e faz a div ocupar toda a tela */
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)),
+        url('./img/fundo.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+.main h1 {
+    font-size: 110px;
+    margin-bottom: 20px;
+}
+
+.main h2 {
+    font-size: 60px;
+    margin-top: 0;
+    margin-bottom: 120px;
+}
+
+.main p {
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+
+.main .btn {
+    padding: 10px 50px;
+    font-size: 40px;
+    background-color: white;
+    border-radius: 80px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Jacques Francois', serif;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+ }
+
+.main .btn:hover {
+    background-color: rgb(230, 229, 229);
+}
+
+.main .btn .whatsapp-icon {
+    width: 30px;
+    height: 30px;
+}
