@@ -1,0 +1,127 @@
+/* Garante que o HTML e o body ocupem toda a altura */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Jacques Francois', serif;
+    font-size: 16px;
+}
+
+ /* Centraliza os elementos e faz a div ocupar toda a tela */
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+    background: 
+        linear-gradient(rgba(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)),
+        url('../img/fundo.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+.main h1 {
+    font-size: 5vw;
+    margin-bottom: 1vw;
+}
+
+.main h2 {
+    font-size: 3.5vw;
+    margin-top: 0;
+    margin-bottom: 5vw;
+}
+
+.main p {
+    font-size: 2vw;
+    margin-bottom: 4vw;
+}
+
+.main .btn {
+    padding: 1vw 3vw;
+    font-size: 2vw;
+    background-color: white;
+    border-radius: 5vw;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Jacques Francois', serif;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+ }
+
+.main .btn:hover {
+    background-color: rgb(230, 229, 229);
+    transform: scale(1.05);
+}
+
+.main .btn .whatsapp-icon {
+    width: 2vw;
+    height: auto;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .main h1 {
+        font-size: 8vw;
+    }
+
+    .main h2 {
+        font-size: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .main p {
+        font-size: 4vw;
+    }
+
+    .main .btn {
+        padding: 2vw 6vw;
+        font-size: 4vw;
+        border-radius: 8vw;
+    }
+
+    .main .btn img {
+        width: 3vw;
+    }
+
+    .sobre {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobre .content {
+        margin-bottom: 2vw;
+    }
+}
+
+@media (max-width:480px) {
+    .main h1 {
+        font-size: 10vw;
+    }
+
+    .main h2 {
+        font-size: 8vw;
+        margin-bottom: 4vw;
+    }
+
+    .main p {
+        font-size: 6vw;
+    }
+
+    .main .btn {
+        font-size: 5vw;
+        padding: 3vw 8vw;
+        border-radius: 10vw;
+    }
+
+    .main .btn img {
+        width: 4vw;
+    }
+}
