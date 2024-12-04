@@ -152,7 +152,7 @@ html, body {
     color: black;
 
     background: 
-        linear-gradient(rgba(128, 105, 61, 0.6), rgba(128, 105, 61, 0.6)),
+        linear-gradient(rgba(136, 125, 104, 0.6), rgba(136, 125, 104, 0.6)),
         url('../img/fundo.jpg');
         background-size: cover;
         background-position: center;
