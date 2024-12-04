@@ -176,7 +176,7 @@ html, body {
 }
 
 .procedimentos .procedimentos-container .procedimento-item {
-    background-color: white;
+    background-color: rgb(237, 237, 237);
     border-radius: 1rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -196,7 +196,7 @@ html, body {
 }
 
 .procedimentos .procedimentos-container .procedimento-item p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: black;
     margin: 0;
 }
@@ -209,7 +209,7 @@ html, body {
 
 .procedimentos .btn {
     display: inline-flex;
-    background-color: white;
+    background-color: rgb(237, 237, 237);
     border-radius: 25rem;
     margin-right: 10rem;
     padding: 1rem 2rem;
@@ -228,7 +228,7 @@ html, body {
 }
 
 .procedimentos .btn:hover {
-    background-color: rgb(230, 229, 229);
+    background-color: rgb(217, 217, 217);
     transform: scale(1.05);
 }
 
