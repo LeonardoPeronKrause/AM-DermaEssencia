@@ -92,12 +92,12 @@ html, body {
 }
 
 .sobre .content h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
 }
 
 .sobre .content p {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     line-height: 1.8;
     margin-bottom: 2rem;
 }
@@ -123,13 +123,13 @@ html, body {
 .sobre .btn .btn1 {
     display: inline-flex;
     background-color: #AE886D;
-    border: none;
     border-radius: 25rem;
     margin-right: 10rem;
     padding: 0.5rem 2rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Jacques Francois', serif;
     gap: 0.5rem;
+    border: 0;
 }
 
 /* Estilo do botão ao passar o mouse */
@@ -139,8 +139,8 @@ html, body {
 }
 
 .sobre .btn img {
-    width: 2rem;
-    height: 2rem;
+    width: 2.2rem;
+    height: 2.2rem;
 }
 
 /* Responsividade para telas menores */
