@@ -80,8 +80,8 @@ html, body {
     width: 100%;
     height: 100%;
     justify-content: space-between;
-    gap: 10rem;
-    padding: 0 10vw 0;
+    gap: clamp(2rem, 5%, 10vw);
+    padding: 0 clamp(1rem, 5%, 10vw);
 }
 
 .sobre .content {
@@ -103,9 +103,11 @@ html, body {
 }
 
 .sobre .image {
-    width: 30%;
+    width: 100%;
+    max-width: 25rem;
     height: auto;
     object-fit: cover;
+    margin: 0 auto;
 }
 
 .sobre .image img {
@@ -185,6 +187,8 @@ html, body {
 
 .procedimentos .procedimentos-container .procedimento-item img {
     width: 100%;
+    height: auto;
+    max-width: 15rem;
     border-radius: 0.8rem;
 }
 
@@ -232,54 +236,73 @@ html, body {
     transform: scale(1.05);
 }
 
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-    .main h1 {
-        font-size: 8vw;
-    }
-
-    .main h2 {
-        font-size: 5vw;
-        margin-bottom: 3vw;
-    }
-
-    .main p {
-        font-size: 4vw;
-    }
-
-    .main .btn {
-        padding: 2vw 6vw;
-        font-size: 4vw;
-        border-radius: 8vw;
-    }
-
-    .main .btn img {
-        width: 3vw;
-    }
-
+.profissionais {
+    display: flex;
+    height: 135vh;
+    width: 100%;
+    background-color: rgb(237, 237, 237);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-@media (max-width:480px) {
-    .main h1 {
-        font-size: 10vw;
-    }
+.profissionais h1 {
+    font-size: 5rem;
+}
 
-    .main h2 {
-        font-size: 8vw;
-        margin-bottom: 4vw;
-    }
+.profissionais .profissional {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
 
-    .main p {
-        font-size: 6vw;
-    }
+.profissionais .profissional .profissional1 {
+    background-color: #AE886D;
+    padding: 0.75rem;
+    padding-right: 2rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 
-    .main .btn {
-        font-size: 5vw;
-        padding: 3vw 8vw;
-        border-radius: 10vw;
-    }
+.profissionais .profissional .profissional1 p {
+    font-size: 1.7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
 
-    .main .btn img {
-        width: 4vw;
-    }
+.profissionais .profissional .profissional1 img {
+    width: 100%;
+    height: auto;
+    max-width: 18rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.profissionais .profissional .profissional2 {
+    background-color: #AE886D;
+    padding: 1.3rem;
+    padding-left: 3rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.profissionais .profissional .profissional2 p {
+    font-size: 1.7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.profissionais .profissional .profissional2 img {
+    width: 100%;
+    height: auto;
+    max-width: 18rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
