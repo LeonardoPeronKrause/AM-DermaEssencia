@@ -41,7 +41,7 @@ html, body {
     margin-bottom: 4vw;
 }
 
-.main .btn {
+.main a {
     padding: 1vw 3vw;
     font-size: 2vw;
     background-color: white;
@@ -54,23 +54,21 @@ html, body {
     align-items: center;
     justify-content: center;
     gap: 1vw;
- }
-
-.main .btn:hover {
-    background-color: rgb(230, 229, 229);
-    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-decoration: none;
 }
 
-.main .btn .whatsapp-icon {
-    width: 2vw;
-    height: auto;
+.main a:hover {
+    background-color: rgb(230, 229, 229);
+    transform: scale(1.05);
 }
 
 .sobre {
     display: flex;
     height: 100vh;
     width: 100%;
-    background-color: rgb(237, 237, 237);
+    background-color: white;
 }
 
 .sobre .container {
@@ -113,35 +111,35 @@ html, body {
 .sobre .image img {
     max-width: 25rem;
     border-radius: 6rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Estilo para o botão */
-.sobre .btn {
+.sobre a {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sobre .btn .btn1 {
+.sobre a {
     display: inline-flex;
     background-color: #AE886D;
     border-radius: 25rem;
-    margin-right: 10rem;
-    padding: 0.5rem 2rem;
+    margin-right: 30rem;
+    margin-left: 20rem;
+    padding: 0.5rem;
     font-size: 1.7rem;
     font-family: 'Jacques Francois', serif;
     gap: 0.5rem;
     border: 0;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-decoration: none;
 }
 
-.sobre .btn1:hover {
+.sobre a:hover {
     background-color:#8a6c57;
     transform: scale(1.05);
-}
-
-.sobre .btn img {
-    width: 2.2rem;
-    height: 2.2rem;
 }
 
 .procedimentos {
@@ -154,8 +152,9 @@ html, body {
     color: black;
 
     background: 
-        linear-gradient(rgba(136, 125, 104, 0.6), rgba(136, 125, 104, 0.6)),
+        linear-gradient(rgba(240, 180, 140, 0.6), rgba(240, 180, 140, 0.6)),
         url('../img/fundo.jpg');
+        opacity: 90%;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -174,13 +173,12 @@ html, body {
     justify-content: center;
     align-items: center;
     gap: 7rem;
-    margin-top: 0.5rem;
 }
 
 .procedimentos .procedimentos-container .procedimento-item {
-    background-color: rgb(237, 237, 237);
+    background-color: white;
     border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
     text-align: center;
     padding: 2rem;
 }
@@ -190,6 +188,7 @@ html, body {
     height: auto;
     max-width: 15rem;
     border-radius: 0.8rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .procedimentos .procedimentos-container .procedimento-item h3 {
@@ -211,9 +210,9 @@ html, body {
     color: black;
 }
 
-.procedimentos .btn {
+.procedimentos a {
     display: inline-flex;
-    background-color: rgb(237, 237, 237);
+    background-color: white;
     border-radius: 25rem;
     margin-right: 10rem;
     padding: 1rem 2rem;
@@ -224,14 +223,17 @@ html, body {
     margin: 0;
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin-top: -1rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: black;
+    text-decoration: none;
 }
 
-.procedimentos .btn img {
+.procedimentos a img {
     width: 2rem;
     height: 2rem;
 }
 
-.procedimentos .btn:hover {
+.procedimentos a:hover {
     background-color: rgb(217, 217, 217);
     transform: scale(1.05);
 }
@@ -240,7 +242,7 @@ html, body {
     display: flex;
     height: 135vh;
     width: 100%;
-    background-color: rgb(237, 237, 237);
+    background-color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -265,7 +267,7 @@ html, body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .profissionais .profissional .profissional1 p {
@@ -279,7 +281,7 @@ html, body {
     height: auto;
     max-width: 18rem;
     border-radius: 0.8rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
 }
 
 .profissionais .profissional .profissional2 {
@@ -290,7 +292,7 @@ html, body {
     display: flex;
     align-items: center;
     gap: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
 }
 
 .profissionais .profissional .profissional2 p {
@@ -304,5 +306,136 @@ html, body {
     height: auto;
     max-width: 18rem;
     border-radius: 0.8rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.contatos {
+    height: 115vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+
+    background: 
+        linear-gradient(rgba(240, 180, 140, 0.6), rgba(240, 180, 140, 0.6)),
+        url('../img/fundo.jpg');
+        opacity: 90%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+}
+
+.contatos h1 {
+    font-size: 5rem;
+    margin-top: 10rem;
+}
+
+.contatos .contato {
+    width: 100%;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+    margin-top: 0.5rem;
+}
+
+.contato .contato1 {
+    background-color: white;
+    border-radius: 5rem;
+    padding: 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.contato .contato1 img {
+    width: 26rem;
+    max-width: 85%;
+    border-radius: 50rem;
+    border: black solid 0.1rem;
+}
+
+.contato .contato2 {
+    background-color: white;
+    border-radius: 5rem;
+    padding: 2rem;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.contato .contato2 img {
+    width: 26rem;
+    max-width: 85%;
+    border-radius: 50rem;
+    border: black solid 0.1rem;
+}
+
+.botoes-contato {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes-contato a {
+    font-size: 3rem;
+    width: 3rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3 ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.botao-whatsapp, .botao-instagram {
+    text-decoration: none;
+    padding: 1.3rem 2rem;
+    color: black;
+    border-radius: 2rem;
+    transition: background-color 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.botao-whatsapp {
+    background-color: #25D366;
+}
+
+.botao-instagram {
+    background-color: #E1306C;
+}
+
+.botao-whatsapp:hover {
+    background-color: #1DA851;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.botao-instagram:hover {
+    background-color: #9B2060;
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.contatos p {
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.footer {
+    height: 8vh;
+    background-color: #AE886D;
+}
+
+.footer p {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;padding: 1rem;
 }
