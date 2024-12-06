@@ -124,6 +124,7 @@ html, body {
 .sobre a {
     display: inline-flex;
     background-color: #AE886D;
+    width: 22rem;
     border-radius: 25rem;
     margin-right: 30rem;
     margin-left: 20rem;
@@ -240,7 +241,7 @@ html, body {
 
 .profissionais {
     display: flex;
-    height: 135vh;
+    height: 150vh;
     width: 100%;
     background-color: white;
     flex-direction: column;
@@ -310,7 +311,7 @@ html, body {
 }
 
 .contatos {
-    height: 115vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -381,7 +382,7 @@ html, body {
 .botoes-contato a {
     font-size: 3rem;
     width: 3rem;
-    height: 4rem;
+    height: 4.3rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -394,7 +395,7 @@ html, body {
 
 .botao-whatsapp, .botao-instagram {
     text-decoration: none;
-    padding: 1.3rem 2rem;
+    padding: 1rem 1.8rem;
     color: black;
     border-radius: 2rem;
     transition: background-color 0.3s ease;
@@ -423,7 +424,6 @@ html, body {
 
 .contatos p {
     font-size: 4rem;
-    margin-top: 5rem;
 }
 
 .footer {
