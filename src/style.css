@@ -118,13 +118,9 @@ html, body {
 
 /* Estilo para o botão */
 .sobre a {
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-}
-
-.sobre a {
-    display: inline-flex;
     background-color: #AE886D;
     width: 22rem;
     border-radius: 25rem;
@@ -442,4 +438,79 @@ html, body {
     justify-content: center;
     padding: 1rem;
     padding-bottom: 0;
+}
+
+/* CELULARES PEQUENOS */
+@media (max-width: 480px) {    
+    .main h1 {
+        font-size: 2.4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .main p {
+        font-size: 0.85rem;
+        margin-top: 4rem;
+    }
+
+    .main a {
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+
+    .sobre .container {
+        padding: 1rem;
+        gap: 1rem;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .sobre .content {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .sobre .content h1 {
+        font-size: 1.8rem;
+    }
+
+    .sobre .image {
+        max-width: 18rem;
+    }
+
+    .sobre a {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        font-size: 1.4rem ;
+        padding: 0.5rem;
+    }
+}
+
+/* CELULARES MÉDIOS */
+@media (max-width: 768px) {
+
+}
+
+/* TABLETS */
+@media (max-width: 1024px) {
+
+}
+
+/* LAPTOPS PEQUENOS */
+@media (max-width: 1366px) {
+
+}
+
+/* DESKTOPS GRANDES */
+@media (min-width: 1367px) {
+
 }
