@@ -168,8 +168,8 @@ html, body {
 }
 
 .procedimentos .procedimentos-container {
-    width: 70%;
     display: flex;
+    width: 70%;
     flex-direction: row;    
     justify-content: center;
     align-items: center;
@@ -241,7 +241,7 @@ html, body {
 
 .profissionais {
     display: flex;
-    height: 150vh;
+    height: 125vh;
     width: 100%;
     background-color: white;
     flex-direction: column;
@@ -438,4 +438,66 @@ html, body {
     text-align: center;
     align-items: center;
     justify-content: center;padding: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .main h1 {
+        font-size: 4em;
+    }
+
+    .main h2 {
+        font-size: 2em;
+    }
+
+    .main p {
+        font-size: 1.5em;
+    }
+
+    .sobre {
+        height: 100vh;
+        display: flex;
+        padding: 4em;
+    }
+
+    .sobre .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .sobre .container .content h1 {
+        font-size: 5em;
+        position: relative;
+    }
+
+    .sobre .container .content p {
+        width: 80%;
+        flex-wrap: wrap;
+    }
+
+    .sobre .container .image {
+        visibility: hidden;
+    }
+
+    .procedimentos {
+        height: 200vh;
+    }
+
+    .procedimentos h1 {
+        font-size: 4em;
+    }
+
+    .procedimentos-container {
+        background-color: #1DA851;
+    }
+
+    .procedimentos-container .procedimento-item {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: 25em;
+    }
+
+    .profissionais {
+        height: 350vh;
+    }
 }
