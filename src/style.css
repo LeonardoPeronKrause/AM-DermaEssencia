@@ -239,7 +239,7 @@ html, body {
 
 .profissionais {
     display: flex;
-    height: 150vh;
+    height: 130vh;
     width: 100%;
     background-color: white;
     flex-direction: column;
@@ -255,14 +255,14 @@ html, body {
     width: 70%;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 3em;
 }
 
 .profissionais .profissional .profissional1 {
     background-color: #AE886D;
     padding: 0.75rem;
-    padding-right: 2rem;
-    border-radius: 2rem;
+    padding-right: 2em;
+    border-radius: 2em;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -507,7 +507,45 @@ html, body {
 
 /* LAPTOPS PEQUENOS */
 @media (max-width: 1366px) {
-
+    .body {
+        height: 100%;
+        font-family: 'Jacques Francois', serif;
+        padding: 0;
+    }
+    .main {
+        height: auto;
+        padding-bottom: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .sobre {
+        height: auto;
+        padding-bottom: 2em;
+    }
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .content p {
+        width: 65%;
+    }
+    .procedimentos {
+        height: auto;
+        padding-bottom: 2em;
+    }
+    .profissionais {
+        height: auto;
+        padding-bottom: 2em;
+    }
+    .contatos {
+        height: auto;
+    }
+    .footer {
+        height: auto;
+    }
 }
 
 /* DESKTOPS GRANDES */
