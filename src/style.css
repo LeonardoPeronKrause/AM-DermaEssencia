@@ -513,7 +513,7 @@ html, body {
         padding: 0;
     }
     .main {
-        height: auto;
+        height: 100%;
         padding-bottom: 2em;
         display: flex;
         flex-direction: column;
@@ -528,19 +528,34 @@ html, body {
     .container {
         display: flex;
         flex-direction: row;
+        gap: 0em;
     }
-    .content p {
+    .container .image {
+        display: flex;
+        justify-content: left;
+        margin-left: -23em;
+    }
+    .sobre .content p {
         width: 65%;
     }
     .procedimentos {
         height: auto;
         padding-bottom: 2em;
     }
+    .procedimentos .procedimentos-container {
+        width: 85%;
+    }
     .profissionais {
         height: auto;
         padding-bottom: 2em;
     }
+    .profissionais .profissional {
+        width: 95%;
+    }
     .contatos {
+        height: 165vh;
+    }
+    .fundo-contatos {
         height: auto;
     }
     .footer {
