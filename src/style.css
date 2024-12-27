@@ -497,7 +497,37 @@ html, body {
 
 /* CELULARES MÉDIOS */
 @media (max-width: 768px) {
+    .body {
+        height: 100%;
+        font-family: 'Jacques Francois', serif;
+        padding: 0;
+    }
+    .main {
+        height: auto;
+    }
+    .sobre {
+        height: auto;
+    }
+    .sobre .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: right;
+        text-align: center;
 
+    }
+    .procedimentos {
+        height: auto;
+    }
+    .profissionais {
+        height: auto;
+    }
+    .contatos {
+        height: auto;
+    }
+    .footer {
+        height: auto;
+    }
 }
 
 /* TABLETS */
