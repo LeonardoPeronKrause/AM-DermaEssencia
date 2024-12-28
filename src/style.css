@@ -75,8 +75,7 @@ html, body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    max-width: 70%;
-    width: 1%;
+    max-width: 100%;
     height: 100%;
     justify-content: space-between;
     gap: clamp(2rem, 5%, 10vw);
@@ -440,64 +439,101 @@ html, body {
     padding-bottom: 0;
 }
 
-/* CELULARES PEQUENOS */
-@media (max-width: 480px) {    
-    .main h1 {
-        font-size: 2.4rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .main h2 {
-        font-size: 1.5rem;
-        margin-top: 2rem;
-    }
-
-    .main p {
-        font-size: 0.85rem;
-        margin-top: 4rem;
-    }
-
-    .main a {
-        font-size: 1rem;
-        margin-top: 1rem;
-    }
-
-    .sobre .container {
-        padding: 1rem;
-        gap: 1rem;
-        flex-direction: column;
-        justify-content: space-between;
-        text-align: left;
-    }
-
-    .sobre .content {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .sobre .content h1 {
-        font-size: 1.8rem;
-    }
-
-    .sobre .image {
-        max-width: 18rem;
-    }
-
-    .sobre a {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+/* CELULARES */
+@media (max-width: 480px) {
+    html, body {
         width: 100%;
-        font-size: 1.4rem ;
-        padding: 0.5rem;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .main {
+        height: auto;
+    }
+    .main .content h1 {
+        font-size: 2.5em;
+    }
+    .main .content h2 {
+        font-size: 1.8em;
+        margin-top: 0.5em;
+    }
+    .main .content p {
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        font-size: 1.5em;
+    }
+    .main .content a {
+        margin-top: 1em;
+        font-size: 1.3em;
+        padding: 0.5em;
+    }
+    .main .content a img {
+        height: 1.6em;
+        width: 1.6em;
+    }
+    .sobre {    /* NÃO FINALIZADO */
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .sobre .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0;
+        padding: 0;
+    }
+    .sobre .content {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .sobre .content h1 {
+        font-size: 4em;
+    }
+    .sobre .content p {
+        font-size: 1.5em;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        text-align: center;
+        line-height: normal;
+        padding: 0 1 rem;
+    }
+    .sobre .container .content a {
+        text-align: center;
+        margin-left: 17em;
+        margin-top: 1.5em;
+    }
+    .sobre .container .image {
+        margin-left: 0; /* Remove a margem à esquerda */
+        margin-top: 1em; /* Dá um pequeno espaçamento superior se necessário */
+        height: auto;
+        width: auto;
+        display: block; /* Garante que a imagem seja um bloco e centralizada */
+        margin-left: auto; /* Garante centralização */
+        margin-right: auto; /* Garante centralização */
+    }
+    .sobre .container .image img {
+        height: 50%;
+        width: 80%;
     }
 }
 
-/* CELULARES MÉDIOS */
+/* TABLET MÉDIOS */
 @media (max-width: 768px) {
-    .body {
+    body {
         height: 100%;
         font-family: 'Jacques Francois', serif;
         padding: 0;
@@ -537,10 +573,11 @@ html, body {
 
 /* LAPTOPS PEQUENOS */
 @media (max-width: 1366px) {
-    .body {
+    body {
         height: 100%;
         font-family: 'Jacques Francois', serif;
         padding: 0;
+        overflow-x: hidden;
     }
     .main {
         height: 100%;
