@@ -475,7 +475,6 @@ html, body {
     }
     .sobre {    /* NÃO FINALIZADO */
         width: 100%;
-        max-width: 100%;
         margin: 0;
         overflow-x: hidden;
     }
@@ -484,7 +483,6 @@ html, body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: flex-start;
         margin: 0;
         padding: 0;
     }
@@ -499,7 +497,7 @@ html, body {
         text-align: center;
     }
     .sobre .content h1 {
-        font-size: 4em;
+        font-size: 3.5em;
     }
     .sobre .content p {
         font-size: 1.5em;
@@ -513,21 +511,112 @@ html, body {
     }
     .sobre .container .content a {
         text-align: center;
-        margin-left: 17em;
+        margin-left: 18em;
         margin-top: 1.5em;
     }
     .sobre .container .image {
-        margin-left: 0; /* Remove a margem à esquerda */
+        margin-left: 6.4em; /* Remove a margem à esquerda */
         margin-top: 1em; /* Dá um pequeno espaçamento superior se necessário */
-        height: auto;
-        width: auto;
-        display: block; /* Garante que a imagem seja um bloco e centralizada */
-        margin-left: auto; /* Garante centralização */
-        margin-right: auto; /* Garante centralização */
     }
     .sobre .container .image img {
-        height: 50%;
+        height: 30%;
+        width: 70%;
+    }
+    .procedimentos {
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .procedimentos h1 {
+        font-size: 3em;
+    }
+    .procedimentos .procedimentos-container {
+        display: flex;
+        flex-direction: column;
+        gap: 4em;
+    }
+    .procedimentos .procedimentos-container .procedimento-item {
+        width: 60%;
+    }
+    .procedimentos h2 {
+        font-size: 2.3em;
+        margin-bottom: 1.5em;
+    }
+    .profissionais {
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .profissionais h1 {
+        font-size: 3.5em;
+    }
+    .profissionais .profissional {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .profissionais .profissional .profissional1 {
         width: 80%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .profissionais .profissional .profissional1 img {
+        align-items: center;
+        height: auto;
+        width: 100%;
+        margin-top: 1em;
+        margin-left: 1.3em;
+        padding-bottom: 0;
+    }
+    .profissionais .profissional .profissional1 p {
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        padding: 1em;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-top: 0;
+    }
+    .profissionais .profissional .profissional2 {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0;
+    }
+    .profissionais .profissional .profissional2 img {
+        align-items: center;
+        width: 80%;
+        margin-top: 1em;
+        padding-bottom: 0;
+        margin-right: 1.3em
+    }
+    .profissionais .profissional .profissional2 p {
+        font-size: 1.5em;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-left: 1em;
+    }
+    .contatos {
+        height: auto;
+        width: 100%;
+        margin: 0;
+        overflow-x: hidden;
+    }
+    .contatos .fundo-contatos h1 {
+        font-size: 3.5em;
+    }
+    .contatos .fundo-contatos .contato {
+        width: 100%;
+    }
+    .contatos .fundo-contatos .contato .contato1 {
+        height: auto;
+        width: 70%;
+    }
+    .contatos .fundo-contatos .contato .contato2 {
+        height: auto;
+        width: 70%;
     }
 }
 
