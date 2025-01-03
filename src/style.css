@@ -602,21 +602,27 @@ html, body {
         height: auto;
         width: 100%;
         margin: 0;
-        overflow-x: hidden;
+    }
+    .contatos .fundo-contatos {
+        height: 600vh;
+    }
+    .contatos .fundo-contatos .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        height: auto;
+    }
+    .contatos .fundo-contatos .contato .contato1 {
+        width: 60%;
+    }
+    .contatos .fundo-contatos .contato .contato2 {
+        width: 60%;
     }
     .contatos .fundo-contatos h1 {
         font-size: 3.5em;
     }
-    .contatos .fundo-contatos .contato {
-        width: 100%;
-    }
-    .contatos .fundo-contatos .contato .contato1 {
-        height: auto;
-        width: 70%;
-    }
-    .contatos .fundo-contatos .contato .contato2 {
-        height: auto;
-        width: 70%;
+    .contatos .fundo-contatos p {
+        font-size: 2.5em;
     }
 }
 
@@ -709,10 +715,13 @@ html, body {
         width: 95%;
     }
     .contatos {
-        height: 165vh;
+        height: 153vh;
     }
     .fundo-contatos {
-        height: auto;
+        margin-top: 0;
+    }
+    .fundo-contatos p {
+        font-size: 3em;
     }
     .footer {
         height: auto;
