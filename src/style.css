@@ -754,5 +754,49 @@ html, body {
 
 /* DESKTOPS GRANDES */
 @media (min-width: 1367px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        height: 100%;
+        font-family: 'Jacques Francois', serif;
+        padding: 0;
+    }
+    .sobre .container .content h1 {
+        font-size: 4em;
+    }
+    .sobre .container .content p {
+        font-size: 1.5em;
+        width: 80%;
+    }
+    .sobre .container .image {
+        height: 85%;
+        display: flex;
+        justify-content: left;
+        margin-left: -14em;
+    }
+    .procedimentos {
+        height: 125%;
+    }
+    .profissionais {
+        height: 160%;
+    }
+    .profissional {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+    }
+    .profissional1 {
+        width: 125%;
+    }
+    .profissional2 {
+        width: 125%;
+    }
+    .contatos {
+        height: 150%;
+    }
+    .footer {
+        height: auto;
+    }
 }
