@@ -439,7 +439,7 @@ html, body {
     padding-bottom: 0;
 }
 
-/* CELULARES */
+/* CELULARES PEQUENO*/
 @media (max-width: 480px) {
     html, body {
         width: 100%;
@@ -473,18 +473,21 @@ html, body {
         height: 1.6em;
         width: 1.6em;
     }
-    .sobre {    /* NÃO FINALIZADO */
+    .sobre {
         width: 100%;
         margin: 0;
-        overflow-x: hidden;
+        padding: 0;
+        box-sizing: border-box;
     }
     .sobre .container {
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
     }
     .sobre .content {
         width: 100%;
@@ -515,8 +518,11 @@ html, body {
         margin-top: 1.5em;
     }
     .sobre .container .image {
-        margin-left: 6.4em; /* Remove a margem à esquerda */
-        margin-top: 1em; /* Dá um pequeno espaçamento superior se necessário */
+        margin: 1em auto;
+        display: block;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
     .sobre .container .image img {
         height: 30%;
@@ -546,6 +552,7 @@ html, body {
         width: 100%;
         margin: 0;
         overflow-x: hidden;
+        margin-bottom: 3em;
     }
     .profissionais h1 {
         font-size: 3.5em;
@@ -586,7 +593,7 @@ html, body {
     }
     .profissionais .profissional .profissional2 img {
         align-items: center;
-        width: 80%;
+        width: 100%;
         margin-top: 1em;
         padding-bottom: 0;
         margin-right: 1.3em
@@ -607,14 +614,14 @@ html, body {
         padding: 0;
     }
     .contatos .fundo-contatos {
-        width: 100%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
     }
     .contatos .fundo-contatos h1 {
-        margin-top: 1.5em;
+        margin-top: 0em;
     }
     .contatos .fundo-contatos .contato {
         display: flex;
