@@ -1,10 +1,10 @@
 # DermaEssencia
 
-Este projeto foi desenvolvido como um freelance para a A&M DermaEssência, uma empresa de estética. A proposta era criar uma landing page focada na conversão de novos leads diretamente para o WhatsApp da empresa, promovendo os serviços de forma prática e atrativa.
+Este projeto foi desenvolvido como um freelance para a DermaEssência, uma empresa de estética. A proposta era criar uma landing page focada na conversão de novos leads diretamente para o WhatsApp da empresa, promovendo os serviços de forma prática e atrativa.
 
 Sobre o Projeto
 
-A landing page foi projetada com um design limpo e profissional, destacando os serviços oferecidos pela A&M DermaEssência e facilitando o contato direto com a empresa por meio de botões que redirecionam ao WhatsApp.
+A landing page foi projetada com um design limpo e profissional, destacando os serviços oferecidos pela DermaEssência e facilitando o contato direto com a empresa por meio de botões que redirecionam ao WhatsApp.
 
 Objetivo
 	•	Aumentar a conversão de leads: Facilitar o contato dos clientes diretamente pelo WhatsApp.
