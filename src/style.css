@@ -18,7 +18,7 @@ html, body {
 
     background: 
         linear-gradient(rgba(255, 255, 255, 0.4), rgb(255, 255, 255, 0.4)),
-        url('../img/fundo.jpg');
+        url('../docs/img/fundo.jpg');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -151,7 +151,7 @@ html, body {
 
     background: 
         linear-gradient(rgba(240, 180, 140, 0.6), rgba(240, 180, 140, 0.6)),
-        url('../img/fundo.jpg');
+        url('../docs/img/fundo.jpg');
         opacity: 90%;
         background-size: cover;
         background-position: center;
@@ -318,7 +318,7 @@ html, body {
 
     background: 
         linear-gradient(rgba(240, 180, 140, 0.6), rgba(240, 180, 140, 0.6)),
-        url('../img/fundo.jpg');
+        url('../docs/img/fundo.jpg');
         opacity: 90%;
         background-size: cover;
         background-position: center;
