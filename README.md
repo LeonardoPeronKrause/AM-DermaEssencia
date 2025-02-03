@@ -1,4 +1,4 @@
-# AM-DermaEssencia
+# DermaEssencia
 
 Este projeto foi desenvolvido como um freelance para a A&M DermaEssência, uma empresa de estética. A proposta era criar uma landing page focada na conversão de novos leads diretamente para o WhatsApp da empresa, promovendo os serviços de forma prática e atrativa.
 
